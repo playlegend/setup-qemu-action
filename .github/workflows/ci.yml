@@ -22,8 +22,8 @@ jobs:
       fail-fast: false
       matrix:
         image:
-          - tonistiigi/binfmt:latest
-          - tonistiigi/binfmt:master
+          - registry.playlegend.net/binfmt:latest
+          - registry.playlegend.net/binfmt:master
         platforms:
           - all
           - arm64,riscv64,arm
